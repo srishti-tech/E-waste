@@ -1,0 +1,119 @@
+
+    /* --------------------------Dark Mode ---------------------------------------*/
+    .dark-mode {
+        background: var(--white-4);
+        color: var(--bg-gradient-jet);
+    }
+    .dark-mode .sidebar, 
+    .dark-mode .article,
+    .dark-mode  .sidebar-info_more,
+    .dark-mode .icon-box ,
+    .dark-mode .navbar,
+    .dark-mode .about,
+    .dark-mode .contact,
+    .dark-mode .resume,
+    .dark-mode .portfolio,
+    .dark-mode .blog,
+    .dark-mode .blog-post-list,
+    .dark-mode .blog-content,
+    .dark-mode .service-list,
+    .dark-mode .skill-list,
+    .dark-mode .content-card{
+        background: var(--white-3);
+         border: 1px solid var(--white-3);
+      }
+      .dark-mode .separator{
+        background: var(--light-gray);
+      }
+      .dark-mode .has-scrollbar::-webkit-scrollbar-button{
+        background: var(--white-3);
+      }
+
+    .dark-mode  .h2,
+    .dark-mode  .h3,
+    .dark-mode .h4,
+    .dark-mode .h5 ,
+    .dark-mode .p,
+    .dark-mode .about-text{
+      color: var(--smoky-black);
+   }
+
+
+    /* Toggle Switch */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 25px;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color:var(--smoky-black);
+        transition: 0.4s;
+        border-radius: 25px;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 18px;
+        left: 4px;
+        bottom: 3.5px;
+        background-color: var(--white-1);
+        transition: 0.4s;
+        border-radius: 50%;
+    }
+
+    input:checked + .slider {
+        background-color: var(--orange-yellow-crayola);
+    }
+
+    input:checked + .slider:before {
+        transform: translateX(24px);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+const toggleSwitch = document.getElementById("darkModeToggle");
+        
+
+if (localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+    toggleSwitch.checked = true;
+}
+
+toggleSwitch.addEventListener("change", () => {
+    if (toggleSwitch.checked) {
+        document.body.classList.add("dark-mode");
+        localStorage.setItem("darkMode", "enabled");
+    } else {
+        document.body.classList.remove("dark-mode");
+        localStorage.setItem("darkMode", "disabled");
+    }
+});
+
+*/

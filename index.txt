@@ -1,0 +1,209 @@
+E-waste:Recycling System
+-------------------------------------------------------------------------------------------------------
+
+# sidebar
+E-waste:Recycling System (title name)
+
+Email- srishti@example.com
+Phone- +91 93++++++++
+Location- MP,Delhi
+--------------------------------------------------------------------------------------------------------
+# Navbar
+
+About
+Program
+gallery
+Blog
+Contact
+--------------------------------------------------------------------------------------------------------
+# about
+
+title:About Us
+
+"We at EcoCycle are committed to building a sustainable future by addressing the challenges 
+posed by electronic waste. With a vision to reduce environmental harm and promote eco-friendly practices, 
+we provide innovative solutions to collect, recycle, and repurpose discarded electronics. Our goal is to 
+make recycling easy and accessible for everyone while contributing to a cleaner and greener planet."
+[video]
+
+
+##Mission
+"To provide innovative and eco-friendly solutions for e-waste management, reduce environmental impact, 
+and promote a sustainable future through responsible recycling practices."
+
+
+##Vision
+"To create a greener planet by making e-waste recycling accessible to all, fostering a circular economy, 
+and inspiring communities to adopt sustainable habits."
+
+
+## testimonials
+title:Testimonials
+[
+alt = name
+Name
+Message
+]
+
+Anjali
+"EcoCycle made recycling my old gadgets so simple! Their doorstep pickup service is a game-changer, 
+and I feel great knowing I’m contributing to a greener planet."
+
+Priya H
+"As a business owner, e-waste management was always a hassle. 
+EcoCycle’s secure data wiping and recycling services gave me peace of mind while helping the environment!"
+
+
+##image sidebar
+
+
+## FAQs questions:
+Common questions about the recycling process, data security, and certification program.
+--------------------------------------------------------------------------------------------------------
+
+# PROGRAM
+
+title: PROGRAM
+
+We believe in the power of collective responsibility. 
+By recycling e-waste, we can conserve natural resources, reduce pollution, and 
+create a sustainable future for generations to come. 
+Join us in our mission to turn waste into value and protect our planet.
+[video]
+
+## Donation Program:
+Allow users to donate functional electronics for reuse by underprivileged communities.
+
+
+## service
+What we'r doing (Services)
+
+[
+alt = App icon
+name
+text
+]
+alt:icon
+E-Waste Collection: 
+We offer convenient pickup services for electronic waste at your doorstep.
+Alternatively, you can drop your e-waste at one of our designated collection centers.
+alt = App icon
+Secure Data Wiping: 
+All devices are handled with utmost care to ensure complete data destruction before recycling.
+alt = App icon
+Recycling and Repurposing:
+ We use advanced recycling methods to extract reusable materials from e-waste and minimize landfill impact.
+alt = App icon
+Certification Program:
+ Earn certificates as a token of appreciation for your contribution to sustainable waste management.
+
+
+##Pickup Points
+"Locate our pickup points nearest to you for dropping off e-waste. 
+We also offer an on-demand pickup service from homes and offices. 
+Our centers are operational in major cities like:
+
+Delhi: 45 Green Street, Industrial Zone.
+Mumbai: 123 Eco Lane, Andheri West.
+Bangalore: 78 Recycle Avenue, Electronic City.
+
+
+##Recycling Centers
+"Our state-of-the-art recycling centers are equipped to handle various types of e-waste,
+ ensuring maximum material recovery with minimal environmental impact. Key recycling hubs are located at:
+
+Noida Recycling Plant: Handles large-scale e-waste from Northern India.
+Bhopal Processing Unit: Specializes in battery recycling and toxic waste neutralization.
+Pune Tech Recycle Hub: Focuses on hardware dismantling and material segregation."
+
+
+##Certificate Program
+"To encourage responsible recycling, we provide personalized certificates 
+to individuals and businesses who recycle their e-waste with us. 
+These certificates are not just a token of gratitude but a symbol of your dedication to protecting the environment.
+ Together, we can make a measurable impact!"
+
+------------------------------------------------------------------------------------------------------------
+# gallery
+title: Gallery 
+
+WEB view:
+All recycle repair donate clean plant
+[images]
+
+mobile view:
+Select category
+All recycle repair donate clean plant
+[images]
+
+---------------------------------------------------------------------------------------------------------
+
+# blog
+title: Blog
+
+[
+alt = Post name date
+post name
+Post (link)
+]
+
+Tips on reducing e-waste, sustainable living, and the importance of recycling.
+Blog/Resources:
+
+1. Tips on Reducing E-Waste
+Electronic waste is one of the fastest-growing waste streams. Here are some practical tips to minimize e-waste:
+
+Buy durable and repairable gadgets instead of disposable ones.
+Sell or donate old electronics instead of throwing them away.
+Upgrade hardware instead of replacing entire devices.
+Recycle responsibly through certified e-waste centers.
+
+2. Sustainable Living: Small Changes, Big Impact
+Living sustainably doesn’t require drastic changes; small steps can make a big difference:
+
+Reduce energy consumption by using energy-efficient appliances.
+Switch to digital documents to reduce paper waste.
+Choose eco-friendly products and packaging.
+Recycle and repurpose old items creatively.
+
+3. How to Safely Dispose of Old Electronics
+Before recycling your old gadgets, follow these steps:
+
+Backup and erase personal data from devices.
+Remove batteries and check if they need special disposal.
+Find certified e-waste recycling programs near you.
+
+4. Future of E-Waste Management: What’s Next?
+With technology evolving rapidly, managing e-waste efficiently is crucial. Innovations like:
+
+AI-driven recycling systems for better waste sorting.
+EPR (Extended Producer Responsibility) policies to hold manufacturers accountable.
+Sustainable gadget designs focusing on modularity and recyclability.
+---------------------------------------------------------------------------------------------------------
+
+# contact
+title:Contact
+
+##map
+
+##Contact Form
+Full name
+Email address
+Your Message
+Send Message button
+
+Contact Us:
+Include a form for inquiries, partnership opportunities, or scheduling pickups.
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Additional Pages/Features
+User Dashboard:
+Track your recycled items and view earned rewards or certificates.
+Corporate Program:
+Special services for businesses to recycle office equipment at scale.
+Impact Tracker:
+Show metrics like the amount of e-waste recycled, CO2 emissions saved, and certificates issued.

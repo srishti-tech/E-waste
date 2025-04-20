@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Reduction Blog</title>
+    <style>
+       @import "root.css";
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color:var(--jet);
+            color: var(--jet);
+            overflow-x: hidden;
+        }
+        .header { color:rgb(254, 252, 252);
+            background: hsl(0, 0%, 7%);
+            padding: 5px;
+            font-size: 25px;
+            text-align: center;
+            text-decoration-color: #333;
+            box-shadow:2px 2px 5px 2px #232323;
+            border-radius: 25px;
+        }
+      
+
+        ul {
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin: 5px 0;
+            color:white;
+            font-size: 16px;
+        }
+       ul li {
+            text-decoration: none;
+        }
+        .leftcolumn { float: left; width: 75%; }
+        .rightcolumn { float: left; width: 25%; padding-left: 15px; }
+        .fakeimg { background-color: #cbc9c9; width: 100%; padding: 15px; }
+        .card {
+            background: hsl(0, 0%, 7%);
+            padding: 20px;
+            margin-top: 20px;
+            color: #f9f4f4;
+            border-radius: 25px;
+            box-shadow:2px 2px 5px 2px #232323;
+        }
+        .row:after { content: ""; display: table; clear: both; }
+        .footer {
+            padding: 5px;
+            text-align: center;background: hsl(0, 0%, 7%);
+            color: #fff;
+            margin-top: 15px;
+            box-shadow:2px 2px 5px 2px #232323;
+            border-radius: 25px;
+            font-size: 12px;
+        }
+        .div-inline{
+            display: flex;
+            flex-direction: row;
+            gap: 35px;
+        }
+        @media screen and (max-width: 1000px) {
+            
+            .leftcolumn, .rightcolumn { width: 100%; padding: 0; }
+            .card-inline{
+                display: flex;
+            flex-direction: row; gap: 5px;}
+            .card-inline img{
+                width: 50%;height: inherit;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Reduce E-Waste: Tips & Insights</h2>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>5 Easy Ways to Reduce E-Waste</h2>
+                <h5>Tips for Sustainable Living</h5>
+                <div><img src="assets/images/5ways.PNG" alt="" height="10%" width="100%"></div>
+                <p>E-waste is one of the fastest-growing waste problems worldwide, 
+                    but you can take simple steps to minimize it. Here are five easy ways 
+                    to reduce e-waste and contribute to a greener planet:
+                </p>
+                <ul>
+                    <li><strong>Extend the Life of Your Devices:</strong> 
+                    <ul>
+                      <li> Take care of your gadgets by using protective cases and handling them properly.</li>
+                    <li>Regularly clean and maintain your devices to avoid premature breakdowns.</li>
+                    <li>  Keep your software updated to ensure smooth performance and longevity.</li> 
+                    </ul> </li>
+                    <li><strong>Repair Instead of Replace:</strong> 
+                      <ul>
+                        <li>Before replacing a broken gadget, consider getting it repaired.</li>
+                        <li>Many minor issues can be fixed with simple DIY solutions or by visiting a repair shop.</li>
+                        <li>Check manufacturer support for extended warranties or repair services.</li>
+                    </ul></li>
+                    <li><strong>Donate or Sell Old Electronics:</strong> 
+                        <ul>
+                        <li>If your devices are still functional but no longer needed, donate them to someone in need.</li>
+                        <li>Sell used electronics through online marketplaces or trade-in programs.</li>
+                        <li>Many organizations refurbish old gadgets and provide them to underprivileged communities.</li>
+                    </ul></li>
+                    <li><strong>Recycle Responsibly:</strong> 
+                        <ul>
+                        <li>Find certified e-waste recycling centers in your area and drop off old electronics.</li>
+                        <li>Never throw electronic devices in regular trash as they contain hazardous materials.</li>
+                        <li>Some manufacturers and retailers offer take-back programs for proper recycling.</li>
+                    </ul></li>
+                    <li><strong>Buy Sustainably:</strong> 
+                        <ul>
+                        <li>Choose eco-friendly brands that design recyclable and long-lasting products.</li>
+                        <li>Avoid unnecessary upgrades—consider whether a new device is truly needed.</li>
+                        <li>Support companies with responsible e-waste management and sustainability initiatives.</li> 
+                    </ul></li>
+                </ul>
+            </div>
+          
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="div-inline">
+                <img src="assets/images/images.png" alt="" height="120px " width="150px">
+                <p>Passionate about sustainability and reducing e-waste.</p>
+            </div>
+            </div>
+            <div class="card">
+                <h3>Popular Posts</h3>
+                <div class="card-inline">
+                    <img src="assets/images/Untitled-design-2.webp" alt="" height="10%" width="100%"><br>
+                <img src="assets/images/ey-waste-bin-full-of-e-waste.jpg" alt="" height="10%" width="100%"></div>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>Stay updated on the latest e-waste reduction tips.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>&copy; 2025 Reduce E-Waste Blog | All Rights Reserved</h2>
+    </div>
+</body>
+</html>

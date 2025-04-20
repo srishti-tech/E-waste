@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Living Blog</title>
+    
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color:rgb(231, 229, 229);
+            color: #333;
+            overflow-x: hidden;
+        }
+        .header {color:black;
+            background:white;
+            padding: 5px;
+            font-size: 25px;
+            text-align: center;
+            box-shadow:1px 1px 1px 1px #cdcccc;
+            border-radius: 10px;
+        }
+       .lineit{
+        width: 50%;
+       }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: none;
+            line-height: 25px;
+        }
+        ul li {
+            margin: 5px 0;
+            color:black;
+            font-size: 16px;
+        }
+       ul li {
+            text-decoration: none;
+        }
+        .leftcolumn { float: left; width: 75%; }
+        .rightcolumn { float: left; width: 25%; padding-left: 15px; }
+        .fakeimg { background-color: #cbc9c9; width: 100%; padding: 15px; }
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            color:black;
+            border-radius: 10px;
+            box-shadow:1px 1px 1px 1px #cdcccc;
+        }
+        .row:after { content: ""; display: table; clear: both; }
+        .footer {
+            padding: 5px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow:1px 1px 1px 1px #cdcccc; color:black;
+            margin-top: 15px;
+            font-size: 12px;
+            background-color: white;
+        }
+        .div-inline{
+            display: flex;
+            flex-direction: row;
+            gap: 35px;
+        }
+        .div-inline img, p {
+            width: 50%;
+        }
+        .card-inline1{
+            display: flex; flex-direction: row; gap: 30px;
+        }
+
+        @media screen and (max-width: 1000px) {
+            
+            .leftcolumn, .rightcolumn { width: 100%; padding: 0; }
+            .card-inline{
+                display: flex;
+            flex-direction: row; gap: 5px;}
+            .card-inline img{
+                width: 50%;height: inherit;
+            }
+            .div-inline{
+                display: flex;
+                flex-direction: column;
+
+            }
+            .div-inline img{ width: 100%; }
+            .div-inline p{ width: 100%; }
+            .div-inline ul{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Sustainable Living BLog</h2>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Sustainable Living:</h2>
+                <div class="div-inline">
+                    <img src="assets/images/SS.jpg" alt="" height="5%">
+                <p style=" line-height: 25px;">In today’s fast-paced world, sustainability has become more important than ever. 
+                    The choices we make in our daily lives significantly impact the environment. By adopting sustainable living practices, we can contribute to a healthier planet for future generations.
+                     Here are some practical ways to incorporate sustainability into your lifestyle:
+                </p></div>
+                <div  class="div-inline" >
+                    <ul class="lineit">
+                    <li><strong>Reduce, Reuse, Recycle</strong>
+                    <ul>
+                      <li> Reduce: Limit consumption of single-use plastics and unnecessary items.
+                      </li>
+                    <li>Reuse: Opt for reusable bags, bottles, and containers.</li>
+                    <li>Recycle: Properly sort and recycle materials like paper, glass, and plastic.</li> 
+                    </ul> </li>
+                    <li><strong>Conserve Energy and Water:</strong> 
+                      <ul>
+                        <li>Switch to energy-efficient appliances and LED bulbs.</li>
+                        <li>Take shorter showers and fix leaks to reduce water wastage.</li>
+                    </ul></li>
+                    <li><strong>Choose Sustainable Transportation</strong> 
+                        <ul>
+                        <li>Walk or cycle for short distances.</li>
+                        <li>Use public transport or carpool whenever possible.</li>
+                        </ul></li>
+                  
+                </ul>
+            <img src="assets/images/foot.jpg" alt="" width="40%" height="400px"></div>
+            </div>
+          
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="card-inline1">
+                <img src="assets/images/sustain.jpg" alt="" height="120px " width="150px">
+                <p>By adopting sustainable living practices, we can contribute to a healthier planet for future generations.</p>
+            </div>
+            </div>
+            <div class="card">
+                <h3>Popular Posts</h3>
+                <div class="card-inline"><img src="assets/images/download.jpg" alt="" height="10%" width="100%"><br>
+                <img src="assets/images/sustainpractice.jpg" alt="" height="10%" width="100%"></div>
+            </div>
+          
+        </div>
+    </div>
+    <div class="footer">
+        <h2>&copy; 2025 Sustainable Living Blog | All Rights Reserved</h2>
+    </div>
+</body>
+</html>
